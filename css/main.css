@@ -495,6 +495,16 @@ textarea {
   margin: 100px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
 header {
   padding: 33px 0;
 }
@@ -502,6 +512,10 @@ header {
 header .content-wrapper {
   width: 100%;
   justify-content: space-between;
+}
+
+header figure {
+  width: 30%;
 }
 
 header nav {
@@ -514,6 +528,18 @@ header nav ul {
 
 .header-divider {
   display: none;
+}
+
+/* Hero Area */
+
+.hero-area {
+  min-height: 600px;
+}
+
+.hero-area h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
 }
 
 aside .content-wrapper {
@@ -536,6 +562,10 @@ aside .content-wrapper .form {
   flex-basis: 50%;
 }
 
+.features h2 {
+  margin-bottom: 20px;
+}
+
 .features .features-item-description {
   width: 50%;
 }
@@ -549,6 +579,20 @@ aside .content-wrapper .form {
   width: 49%;
 }
 
+.reviews h2 {
+  width: 85%;
+}
+
+.reviews article figure,
+.reviews article div {
+  width: 49%;
+}
+
+.reviews h3 {
+  width: 75%;
+  margin: 0;
+}
+
 footer .content-wrapper {
   width: 65%;
 }
@@ -557,10 +601,16 @@ footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 footer .contact {
   margin-bottom: 0:
+  margin-bottom: 40px;
+}
+
+footer p {
+  line-height: 1.285;
 }
 
 footer .copyright {
@@ -580,6 +630,10 @@ footer .copyright {
 
 .mission-content p {
     width: 45%;
+}
+
+.map figure {
+  padding-bottom: 56.25%;
 }
 
 .contact-section .content-wrapper h2 {
@@ -647,10 +701,18 @@ aside .content-wrapper .form {
 /* ==========================================================================
   About Page
   ========================================================================== */
+  .map figure {
+    padding-bottom: 46.88%;
+  }
+
 
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
+  }
+
+  .contact-content h4 {
+    font-size: 1.875em;
   }
 
   /* ==========================================================================
@@ -660,6 +722,11 @@ aside .content-wrapper .form {
     width: 100%;
   }
 
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 
 }
 
